@@ -1,0 +1,7 @@
+.fixyoutube-info-container {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 14px;
+  color: rgb(170, 170, 170);
+  padding-bottom: 8px;
+}
