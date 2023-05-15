@@ -63,7 +63,7 @@ const createVideoInfo = () => {
   aboveTheFold.insertBefore(container, topRow);
 };
 
-onElementTextChange("#description-inner #tooltip", createVideoInfo, (text) => {
+onElementTextChange("#description #tooltip", createVideoInfo, (text) => {
   const [views, date] = text?.trim().split(" • ");
   const viewsContainer = document.querySelector(".fixyoutube-views");
   const dateContainer = document.querySelector(".fixyoutube-date");
